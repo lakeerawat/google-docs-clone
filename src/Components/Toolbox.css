@@ -1,0 +1,165 @@
+.ToolboxDiv {
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+}
+.textandToolDiv {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.horizontalDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  background-color: ghostwhite;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+.ToolDiv {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+.ToolDiv > span {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minus {
+  display: flex;
+  width: fit-content;
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  width: 2rem;
+  cursor: pointer;
+}
+.plus {
+  display: flex;
+  width: fit-content;
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  width: 2rem;
+  cursor: pointer;
+}
+.numSpan {
+  display: flex;
+  width: fit-content;
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid grey;
+  width: 2rem;
+}
+.boldSpan {
+  display: flex;
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 2rem;
+  cursor: pointer;
+}
+.italicSpan {
+  display: flex;
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  width: 2rem;
+  cursor: pointer;
+}
+.lineSpan {
+  display: flex;
+  width: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+.AlineSpan {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 0.2rem;
+  font-size: 1rem;
+  width: 4rem;
+}
+.AlineSpan > label {
+  margin-top: 0.4rem;
+}
+.AlineSpan > input {
+  height: 13px;
+  border: none;
+  cursor: pointer;
+}
+.textRight {
+  display: flex;
+  width: 2rem;
+  height: 2.3rem;
+}
+.verticleDiv {
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  align-items: flex-end;
+}
+.verticleDiv > a {
+  margin-bottom: 1.3rem;
+}
+
+/* .verticleDiv>span{
+    margin-bottom: 1rem;
+} */
+.sideBarSpan {
+  margin-bottom: 1.3rem;
+}
+.TextArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid gray;
+  padding: 1rem;
+  background-color: ghostwhite;
+}
+.docNameDiv {
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+.docNameDiv > input {
+  display: flex;
+  width: 25%;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.TextArea > textarea {
+  width: 80%;
+  height: 20rem;
+  padding: 4rem;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 3rem;
+}
+.buttonDiv {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+.buttonDiv > button {
+  width: 6rem;
+  color: white;
+  background-color: rgb(80, 80, 240);
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border: none;
+  margin-right: 2rem;
+}
