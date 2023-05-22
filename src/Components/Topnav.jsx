@@ -47,7 +47,7 @@ const Topnav = ({ name,para }) => {
           <AiOutlineLock size={20} />
           <p>Share</p>
         </span>
-        <span className="Navdiv3Span">
+        <span className="Navdiv3Span person">
           <FcBusinessman size={35} />
         </span>
       </div>
