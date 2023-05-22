@@ -110,7 +110,7 @@ const Toolbox = () => {
   };
   return (
     <>
-      <Topnav name={name} />
+      <Topnav name={name} para={para} />
       <div className="ToolboxDiv">
         <div className="textandToolDiv">
           <div className="horizontalDiv">
@@ -219,7 +219,7 @@ const Toolbox = () => {
             </span>{" "}
           </a>
           <span className="sideBarSpan">
-            <SiGooglekeep color="f3f31a" size={30} />
+            <SiGooglekeep color="#F6BE00" size={30} />
           </span>
           <span className="sideBarSpan">
             <IoMdCheckmarkCircleOutline color="#0874db" size={30} />
@@ -228,9 +228,11 @@ const Toolbox = () => {
           <span className="sideBarSpan">
             <GoPerson color="#0874db" size={30} />
           </span>
+          <a href="https://www.google.com/maps/@25.3182561,82.9824112,15z">
           <span className="sideBarSpan">
             <MdLocationPin color="#0874db" size={30} />
           </span>
+          </a>
         </div>
       </div>
     </>

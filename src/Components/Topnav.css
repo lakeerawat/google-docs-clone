@@ -38,6 +38,8 @@
   color: black;
   font-size: 1rem;
   width: fit-content;
+  border: 1px solid;
+  border-radius: 2rem;
 }
 .Navdiv3button {
   display: flex;
@@ -50,6 +52,7 @@
   color: black;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* .Navdiv3button>p{
